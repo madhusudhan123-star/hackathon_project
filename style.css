@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Dongle", sans-serif;
 }
 .navbar2 {
   position: fixed;
@@ -126,11 +127,12 @@ body {
 }
 .title_main {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 38px;
 }
 .head_span {
   font-size: 5rem;
+  font-family: "Margarine", cursive;
 }
 .regi_button {
   text-align: center;
@@ -225,7 +227,7 @@ body {
 }
 .blog_header {
   text-align: center;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 .part2 {
   display: flex;
@@ -294,7 +296,7 @@ body {
 .section_3_div {
 }
 .section3_head {
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
 }
 .section3_part1 {
@@ -309,12 +311,15 @@ body {
 
 .quiz {
   width: 22%;
-  height: 16vh;
+  height: 51vh;
   border-radius: 10px;
   text-align: center;
   box-shadow: -1px 2px 8px #888888;
+  background-color: #f2e6b5;
+  font-size: 2rem;
 }
 .heading {
+  margin-top: 0;
 }
 .section3_allpart {
   display: flex;
@@ -332,7 +337,7 @@ a {
   }
   .quiz {
     width: 92%;
-    height: 32vh;
+    height: 54vh;
     border-radius: 10px;
     text-align: center;
     box-shadow: -1px 2px 8px #888888;
@@ -347,7 +352,7 @@ a {
   }
   .quiz {
     width: 100%;
-    height: 16vh;
+    height: 53vh;
     border-radius: 10px;
     text-align: center;
     box-shadow: -1px 2px 8px #888888;
@@ -361,14 +366,13 @@ a {
 }
 .section4_head {
   text-align: center;
-  font-size: 3rem;
-  margin-top: 200px;
+  font-size: 6rem;
 }
 .section4_part1 {
   width: 50%;
 }
 .section4_para {
-  font-size: 1.9rem;
+  font-size: 2.9rem;
   width: 85%;
   text-align: center;
   margin-left: 21px;
@@ -451,7 +455,7 @@ section4_name {
 
 .footer {
   width: 100%;
-  height: 200px;
+  height: 500px;
   display: flex;
   background-color: #515151;
   flex-direction: column;
@@ -459,13 +463,21 @@ section4_name {
   margin-top: 50px;
   justify-content: space-between;
 }
+.footer_para1 {
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+}
+.footer_para2 {
+  font-size: 2rem;
+}
 .app_section {
-  /* background-image: url("images/app_img"); */
   height: 41vh;
   background-repeat: no-repeat;
   background-position: right;
 }
 .app_message {
+  font-size: 4rem;
 }
 .app_ {
   width: 170px;
